@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1323AC30244568BD00035E3F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1323AC2F244568BD00035E3F /* Security.framework */; };
+		1323AC322445768000035E3F /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1323AC312445768000035E3F /* WatchConnectivity.framework */; };
+		1323AC3424457AE900035E3F /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1323AC3324457AE900035E3F /* JavaScriptCore.framework */; };
+		1323AC3624457B0100035E3F /* CryptoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1323AC3524457B0100035E3F /* CryptoKit.framework */; };
+		1323AC3E2445857500035E3F /* SSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 1323AC3A2445857500035E3F /* SSKeychain.m */; };
+		1323AC3F2445857500035E3F /* SSKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 1323AC3B2445857500035E3F /* SSKeychainQuery.m */; };
+		1323AC402445857500035E3F /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 1323AC3D2445857500035E3F /* LICENSE */; };
+		1323AC4324459B3100035E3F /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1323AC4224459B3100035E3F /* ThirdViewController.m */; };
 		13A21D9624445D8E00C7CD56 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A21D9524445D8E00C7CD56 /* AppDelegate.m */; };
 		13A21D9924445D8E00C7CD56 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A21D9824445D8E00C7CD56 /* SceneDelegate.m */; };
 		13A21D9C24445D8E00C7CD56 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A21D9B24445D8E00C7CD56 /* ViewController.m */; };
@@ -39,6 +47,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1323AC2F244568BD00035E3F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		1323AC312445768000035E3F /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = System/Library/Frameworks/WatchConnectivity.framework; sourceTree = SDKROOT; };
+		1323AC3324457AE900035E3F /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		1323AC3524457B0100035E3F /* CryptoKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CryptoKit.framework; path = System/Library/Frameworks/CryptoKit.framework; sourceTree = SDKROOT; };
+		1323AC392445857500035E3F /* SSKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSKeychain.h; path = ../../../Downloads/SSKeychain/SSKeychain.h; sourceTree = "<group>"; };
+		1323AC3A2445857500035E3F /* SSKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSKeychain.m; path = ../../../Downloads/SSKeychain/SSKeychain.m; sourceTree = "<group>"; };
+		1323AC3B2445857500035E3F /* SSKeychainQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSKeychainQuery.m; path = ../../../Downloads/SSKeychain/SSKeychainQuery.m; sourceTree = "<group>"; };
+		1323AC3C2445857500035E3F /* SSKeychainQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSKeychainQuery.h; path = ../../../Downloads/SSKeychain/SSKeychainQuery.h; sourceTree = "<group>"; };
+		1323AC3D2445857500035E3F /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../../../Downloads/SSKeychain/LICENSE; sourceTree = "<group>"; };
+		1323AC4124459B3100035E3F /* ThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		1323AC4224459B3100035E3F /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 		13A21D9124445D8E00C7CD56 /* viewcontroller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = viewcontroller.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13A21D9424445D8E00C7CD56 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		13A21D9524445D8E00C7CD56 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -68,6 +87,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1323AC3624457B0100035E3F /* CryptoKit.framework in Frameworks */,
+				1323AC30244568BD00035E3F /* Security.framework in Frameworks */,
+				1323AC322445768000035E3F /* WatchConnectivity.framework in Frameworks */,
+				1323AC3424457AE900035E3F /* JavaScriptCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +111,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1323AC2E244568BD00035E3F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1323AC3524457B0100035E3F /* CryptoKit.framework */,
+				1323AC3324457AE900035E3F /* JavaScriptCore.framework */,
+				1323AC312445768000035E3F /* WatchConnectivity.framework */,
+				1323AC2F244568BD00035E3F /* Security.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		13A21D8824445D8E00C7CD56 = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +130,7 @@
 				13A21DBD24445D9300C7CD56 /* viewcontrollerUITests */,
 				13A21D9224445D8E00C7CD56 /* Products */,
 				13A21DCC24445E3700C7CD56 /* sign_in_floral.png */,
+				1323AC2E244568BD00035E3F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,6 +147,11 @@
 		13A21D9324445D8E00C7CD56 /* viewcontroller */ = {
 			isa = PBXGroup;
 			children = (
+				1323AC3D2445857500035E3F /* LICENSE */,
+				1323AC392445857500035E3F /* SSKeychain.h */,
+				1323AC3A2445857500035E3F /* SSKeychain.m */,
+				1323AC3C2445857500035E3F /* SSKeychainQuery.h */,
+				1323AC3B2445857500035E3F /* SSKeychainQuery.m */,
 				13A21D9424445D8E00C7CD56 /* AppDelegate.h */,
 				13A21D9524445D8E00C7CD56 /* AppDelegate.m */,
 				13A21D9724445D8E00C7CD56 /* SceneDelegate.h */,
@@ -121,6 +161,8 @@
 				13A21D9B24445D8E00C7CD56 /* ViewController.m */,
 				13A21DD02444616700C7CD56 /* TargetViewController.h */,
 				13A21DD12444616700C7CD56 /* TargetViewController.m */,
+				1323AC4124459B3100035E3F /* ThirdViewController.h */,
+				1323AC4224459B3100035E3F /* ThirdViewController.m */,
 				13A21DA324445D9200C7CD56 /* Assets.xcassets */,
 				13A21DA524445D9200C7CD56 /* LaunchScreen.storyboard */,
 				13A21DA824445D9200C7CD56 /* Info.plist */,
@@ -255,6 +297,7 @@
 				13A21DA424445D9200C7CD56 /* Assets.xcassets in Resources */,
 				13A21D9F24445D8E00C7CD56 /* Main.storyboard in Resources */,
 				13A21DCD24445E3700C7CD56 /* sign_in_floral.png in Resources */,
+				1323AC402445857500035E3F /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +324,10 @@
 			files = (
 				13A21DAA24445D9200C7CD56 /* main.m in Sources */,
 				13A21D9C24445D8E00C7CD56 /* ViewController.m in Sources */,
+				1323AC3E2445857500035E3F /* SSKeychain.m in Sources */,
 				13A21D9624445D8E00C7CD56 /* AppDelegate.m in Sources */,
+				1323AC3F2445857500035E3F /* SSKeychainQuery.m in Sources */,
+				1323AC4324459B3100035E3F /* ThirdViewController.m in Sources */,
 				13A21DA224445D8E00C7CD56 /* viewcontroller.xcdatamodeld in Sources */,
 				13A21D9924445D8E00C7CD56 /* SceneDelegate.m in Sources */,
 				13A21DD22444616700C7CD56 /* TargetViewController.m in Sources */,
