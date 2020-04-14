@@ -12,6 +12,10 @@
 
 @property (weak, nonatomic) IBOutlet UITextField *textBoxName;
 @property (weak, nonatomic) IBOutlet UITextField *textBoxAge;
+
+
+
+
 - (IBAction)next:(id)sender;
 
 @end
